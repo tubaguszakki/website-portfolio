@@ -23,7 +23,7 @@ const Portfolio: React.FC = () => {
   const [projectSlide, setProjectSlide] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
 
-  const texts: string[] = ["Hello, I'm Zakki. Undergraduate student computer science and statistics.", "Welcome to my website!"];
+  const texts: string[] = ["Hello, I'm Zakki. Undergraduate computer science and statistics student.", "Welcome to my website!"];
 
   // Mock data
   const certificates: Item[] = [
